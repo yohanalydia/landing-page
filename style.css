@@ -80,6 +80,11 @@ a {
 .ft {
     line-height: 8px;
 }
+
+.ft-akhir {
+    padding-bottom: 10px;
+}
+
 #testimoni {
     padding-top: 40px;
     padding-bottom: 0px;
@@ -89,6 +94,7 @@ a {
 .judulfitur {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    margin: 0px 0px;
 }
 
 .subjudul {
@@ -129,8 +135,25 @@ a {
 #form {
     background-color: #e8dde8;
 }
+
+.testi-name {
+    font-size: 14px;
+}
+
+.gambar-testi {
+    padding-bottom: 10px;
+}
+
 .baris3p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: calibri;
+}
+
+div.col.r2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding-bottom: 0px;
 }
 
 #submit-form {
@@ -143,6 +166,11 @@ a {
     background-color: #8b5f8b;
     color: azure;
     cursor: pointer;
+}
+div.col.sub-form {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    text-align: center;
 }
 
 #buttonFitur {
@@ -228,10 +256,37 @@ a {
         margin-top: -40px;
         z-index: 1;
     }
+    div.row.justify-content-end {
+        justify-content: left !important;
+        padding: 0px 12px !important;
+    }
 }
 
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 320px) {
     #wave2 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #orang1,
+    #orang2,
+    #orang3 {
+        z-index: 2;
+    }
+    #wave2 {
+        margin-top: -90px;
+        z-index: 1;
+    }
+}
+@media screen and (max-width: 500px) {
+    #orang1,
+    #orang2,
+    #orang3 {
+        z-index: 2;
+    }
+    #wave2 {
+        margin-top: -50px;
+        z-index: 1;
     }
 }
