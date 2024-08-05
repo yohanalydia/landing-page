@@ -1,5 +1,5 @@
 * {
-    font-family: "calibri";
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
     margin-top: 0%;
     margin-bottom: 0%;
 }
@@ -42,15 +42,19 @@ main {
     padding-top: 15px;
 }
 
+button#join {
+    padding: 5px 5px;
+}
+
 a.btn.no-underline {
-    font-family: calibri;
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
     color: #8b5f8b;
-    font-size: 17px;
+    font-size: 15px;
     background-color: azure;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     cursor: pointer;
     font-weight: bolder;
 }
@@ -59,7 +63,7 @@ div.col.testi {
 }
 #join,
 #join > a {
-    font-family: calibri;
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
     color: #8b5f8b;
     font-size: 17px;
     background-color: azure;
@@ -79,6 +83,11 @@ a {
 }
 .ft {
     line-height: 8px;
+    gap: 50px;
+}
+
+#logofooter {
+    margin-bottom: 10px;
 }
 
 .ft-akhir {
@@ -121,7 +130,7 @@ a {
 }
 
 #footer {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
 
@@ -136,28 +145,53 @@ a {
     background-color: #e8dde8;
 }
 
+.pekerjaan {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hr2 {
+    padding: 0px 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#test1{
+    margin-bottom: 30px;
+}
+
+div.col.testi.teks {
+    padding-top: 0px;
+}
+
 .testi-name {
     font-size: 14px;
 }
 
 .gambar-testi {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .baris3p {
-    font-family: calibri;
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
+}
+
+div.col.r1 {
+    height: 150px;
+    align-content: flex-end;
+    margin-bottom: 12px;
 }
 
 div.col.r2 {
     display: flex;
-    align-items: center;
     justify-content: center;
     height: 40px;
     padding-bottom: 0px;
 }
 
 #submit-form {
-    font-family: calibri;
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
     border-radius: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -173,9 +207,17 @@ div.col.sub-form {
     text-align: center;
 }
 
+.navbar > .container {
+    padding: 0px 6px;
+}
+
+.dot {
+    opacity: 0%;
+}
+
 #buttonFitur {
     width: 100px;
-    font-family: calibri;
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
     border-radius: 10px;
     padding: 5px;
     background-color: #8b5f8b;
@@ -192,13 +234,14 @@ div.col.sub-form {
 #main1 > strong {
     padding-bottom: 10px;
     color: white;
-    font-family: "calibri";
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
     font-size: 17px;
 }
 
 @media screen and (max-width: 1400px) {
     #main1 {
         z-index: 2;
+        padding-top: 40px;
     }
     #main2 {
         display: none;
@@ -288,5 +331,16 @@ div.col.sub-form {
     #wave2 {
         margin-top: -50px;
         z-index: 1;
+    }
+
+    .teks,
+    #informasi,
+    #RV,
+    #bantuan {
+        font-size: 14px !important;
+    }
+
+    .desc {
+        font-size: 15px !important;
     }
 }
