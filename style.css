@@ -2,6 +2,10 @@
     font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
     margin-top: 0%;
     margin-bottom: 0%;
+    cursor: url("https://i.imgur.com/bdUUmX0.png"), auto;
+}
+#data-status-check {
+    cursor: auto;
 }
 nav.navbar {
     margin-top: 0%;
@@ -157,7 +161,7 @@ a {
     margin-bottom: 8px;
 }
 
-#test1{
+#test1 {
     margin-bottom: 30px;
 }
 
@@ -280,6 +284,9 @@ div.col.sub-form {
         margin-top: -220px;
         z-index: 1;
     }
+    header {
+        padding-bottom: 30px;
+    }
 }
 @media screen and (max-width: 800px) {
     #main1,
@@ -343,4 +350,87 @@ div.col.sub-form {
     .desc {
         font-size: 15px !important;
     }
+
+    .elemen2 {
+        position: relative;
+        transform: translateX(-10%);
+        opacity: 0;
+        transition: all 0.7s ease;
+    }
+
+    .elemen3 {
+        position: relative;
+        transform: translateX(10%);
+        opacity: 0;
+        transition: all 0.7s ease;
+    }
+}
+
+.elemen {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.elemenmain1 {
+    position: relative;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.elemenmain2 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+#orang1,
+#orang2,
+#orang3,
+#foot1 {
+    position: relative;
+    transform: translateY(70px);
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.formkiri {
+    position: relative;
+    transform: translateX(-20%);
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.formkanan {
+    position: relative;
+    transform: translateX(20%);
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+#orang1.tampil,
+#foot1.tampil {
+    transform: translateY(0);
+    opacity: 1;
+    transition-duration: 1.4s;
+}
+
+#orang2.tampil {
+    transform: translateY(0);
+    opacity: 1;
+    transition-duration: 2s;
+}
+
+#orang3.tampil {
+    transform: translateY(0);
+    opacity: 1;
+    transition-duration: 2.6s;
+}
+
+.tampil {
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
 }
