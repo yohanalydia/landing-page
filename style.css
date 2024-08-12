@@ -50,6 +50,34 @@ button#join {
     padding: 5px 5px;
 }
 
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: rgba(58, 42, 58, 0.2) !important;
+    border-radius: var(--bs-border-radius);
+    font-weight: bold !important;
+}
+
+.nav-pills a.nav-link {
+    color: white !important;
+}
+
+.nav-pills {
+    gap: 1rem !important;
+}
+
+.nav-underline .nav-link.active {
+    color: white !important;
+    border-width: 0rem;
+    margin: 0rem;
+}
+
+.nav-underline a.nav-link {
+    color: white;
+    border-width: 0.125rem;
+    border-radius: 0;
+    margin: 0rem;
+}
+
 a.btn.no-underline {
     font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
     color: #8b5f8b;
@@ -127,6 +155,7 @@ a {
 #footer {
     color: #3a2a3a;
 }
+
 .judul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -205,6 +234,7 @@ div.col.r2 {
     color: azure;
     cursor: pointer;
 }
+
 div.col.sub-form {
     padding: 0px 0px;
     margin: 0px 0px;
